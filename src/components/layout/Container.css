@@ -1,0 +1,19 @@
+.container {
+    margin-left: auto;
+    min-height: 100vh;
+    font-family: 'Gruppo';
+    font-size: 20px;
+}
+
+.min-height {
+    min-height: 75%;
+}
+
+.start {
+    justify-content: flex-start;
+}
+
+.column {
+    flex-direction: column;
+    justify-content: flex-start;
+}
