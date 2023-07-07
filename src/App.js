@@ -1,9 +1,9 @@
 import './App.css'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import Container from './components/layout/Container'
-import Header from './components/layout/Header'
-import Home from './components/pages/Home/Home'
-import Footer from './components/layout/Footer'
+// import Header from './components/layout/Header'
+import Home1 from './components/pages/Home/Home1'
+// import Footer from './components/layout/Footer'
 import AcademicEducation from './components/pages/AcademicEducation/AcademicEducation'
 import Goal from './components/pages/Goal/Goal'
 import SkillsAndKnowledge from './components/pages/SkillsAndKnowledge/SkillsAndKnowledge'
@@ -12,10 +12,10 @@ import Experience from './components/pages/Experience/Experience'
 function App() {
   return (
     <Router>
-      <Header />
+      {/* <Header /> */}
       <Container>
       <Routes>
-        <Route element={<Home />} exact path='/'>
+        <Route element={<Home1 />} exact path='/'>
         </Route>
       </Routes>
       <Routes>
@@ -35,7 +35,7 @@ function App() {
         </Route>
       </Routes>
       </Container>
-      <Footer />
+      {/* <Footer /> */}
     </Router>
   )
 }
